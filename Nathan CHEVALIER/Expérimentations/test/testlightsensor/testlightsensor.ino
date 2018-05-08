@@ -8,7 +8,6 @@ void setup(){
 }
 
 void loop(){
-   Serial.print("The Light value is: ");
-   Serial.println(TSL2561.readVisibleLux());
+   Serial.print(TSL2561.readVisibleLux());
    delay(1000);
 }
